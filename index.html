@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>my weather app</title>
+</head>
+<body>
+  <section class="main">
+  <div class="container">
+    <h1>weather app 2017</h1>
+    <div class="inner">
+      <form id="weather">
+        <input type="text" id="city" placeholder="city">
+        <input type="text" id="country" placeholder="country">
+        <button onclick="getweather();return false;">get weather</button>
+      </form>
+      <div id="display" class="displayWeather">
+       <!-- your weather data and images goes in here -->
+      </div>
+	   <div id="forecast" class="forecastWeather">
+       <!-- your weather data and images goes in here -->
+      </div>
+    </div>
+  </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
